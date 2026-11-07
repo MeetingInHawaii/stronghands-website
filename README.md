@@ -45,6 +45,7 @@ python3 -m http.server 8000
 - The hero button reads "TRADE SHND on XT" with the XT.com logo (`assets/xt-logo.png`, taken from xt.com).
 - The original 2015 Bitcointalk announcement (`https://bitcointalk.org/index.php?topic=1195510`) is linked in History (approved by the owner on 2026-11-07). `stronghands.info` must NOT be linked or mentioned.
 - The only market-data site linked is Coinpaprika (`https://coinpaprika.com/coin/shnd-stronghands`, approved by the owner on 2026-11-07). It is shown with its logo (`assets/coinpaprika-logo.svg`, the pepper wordmark taken from coinpaprika.com) and described as a data website, not an exchange.
+- Contact e-mail: `hello@stronghands.love` (Namecheap free Email Forwarding alias to the central business inbox). Do not add other addresses or contact forms.
 - The only social channels are Twitter/X (`https://twitter.com/SHNDcoin`) and Telegram (`https://t.me/stronghands`).
 - No prices, market capitalization, supply figures, statistics or profit promises.
 - Technical figures must link to the source code or the Bitcointalk thread. The Technology table points to
