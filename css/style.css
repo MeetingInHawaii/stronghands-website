@@ -39,7 +39,7 @@ a:focus-visible,button:focus-visible,summary:focus-visible{outline:3px solid var
 .hero-grid{display:grid;gap:2rem;align-items:center}
 .eyebrow{margin:0 0 .6rem;font-size:.9rem;text-transform:uppercase;color:var(--yellow)}
 h1{margin:0 0 .6rem;line-height:.95}
-h1 .word{display:block;font-size:clamp(1.7rem,8.6vw,5.6rem);color:var(--text);text-shadow:3px 3px 0 var(--yellow);overflow-wrap:anywhere}
+h1 .word{display:block;font-size:clamp(1.7rem,8.2vw,4.3rem);color:var(--text);text-shadow:3px 3px 0 var(--yellow);overflow-wrap:normal;white-space:nowrap}
 .hero-grid>*{min-width:0}
 html,body{overflow-x:hidden}
 .tagline{font-size:clamp(1.15rem,3.6vw,1.6rem);font-style:italic;color:var(--yellow);margin:.2rem 0 1rem}
@@ -47,7 +47,7 @@ html,body{overflow-x:hidden}
 .cta-row{display:flex;flex-wrap:wrap;gap:.75rem;margin:1.4rem 0 0}
 .hero-art{margin:0;justify-self:center;width:min(100%,400px)}
 .hero-art img{display:block;width:100%;height:auto;aspect-ratio:1/1;filter:drop-shadow(0 0 28px rgba(255,212,0,.25))}
-@media (min-width:860px){.hero-grid{grid-template-columns:1.25fr .75fr}}
+@media (min-width:860px){.hero-grid{grid-template-columns:1.25fr .75fr}h1 .word{font-size:min(4.3rem,5.9vw)}}
 
 .btn{display:inline-block;padding:.85rem 1.3rem;border:3px solid var(--yellow);border-radius:999px;text-decoration:none;font-size:.95rem;line-height:1.1;text-align:center;transition:transform .12s;cursor:pointer}
 .btn:hover{transform:translateY(-2px)}
@@ -71,6 +71,10 @@ html,body{overflow-x:hidden}
 .card:hover{color:#000;background:#fff;border-color:#fff}
 .box{padding:1.2rem;border:2px solid var(--line);border-radius:var(--r);background:var(--char2)}
 .box h3{margin-top:0;color:var(--yellow)}
+
+.paprika{display:inline-flex;align-items:center;gap:1rem;flex-wrap:wrap;padding:.9rem 1.2rem;border:3px solid var(--yellow);border-radius:var(--r);background:#000;color:var(--yellow);text-decoration:none;font-weight:700}
+.paprika img{display:block;height:29px;width:auto;max-width:100%}
+.paprika:hover{border-color:#fff;color:#fff}
 
 /* Motto */
 .motto-grid{display:grid;gap:1.2rem}
