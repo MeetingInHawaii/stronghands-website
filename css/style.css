@@ -119,3 +119,8 @@ td.k{font-weight:700;white-space:nowrap}
 .risk{margin-top:1rem;padding-top:1rem;border-top:1px solid var(--line)}
 
 @media (prefers-reduced-motion:reduce){html{scroll-behavior:auto}.btn{transition:none}}
+.social-top{display:flex;gap:.7rem;margin:0 0 1.2rem}
+.social-ico{display:inline-flex;align-items:center;justify-content:center;width:48px;height:48px;border:3px solid var(--yellow);border-radius:50%;background:var(--text);color:var(--black);box-shadow:3px 3px 0 var(--yellow);transition:transform .12s,background .12s}
+.social-ico svg{width:24px;height:24px;display:block}
+.social-ico-img img{width:32px;height:32px;border-radius:50%;display:block}
+.social-ico:hover{background:var(--yellow);transform:translate(-2px,-2px)}
